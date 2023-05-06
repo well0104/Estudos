@@ -30,6 +30,3 @@ def generate_thumbnail(source_path, dest_path):
     with Image.open(source_path) as image:
         image.thumbnail(SIZE)
         image.save(dest_path)
-
-
-print ("Teste")
